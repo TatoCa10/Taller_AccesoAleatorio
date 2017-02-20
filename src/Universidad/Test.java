@@ -13,7 +13,7 @@ public class Test {
         EscrituraAccesoAleatorio EaA = new EscrituraAccesoAleatorio();
         Arbol.AdministradorArboles ArbolAdm = new AdministradorArboles();
 
-        EaA.CrearArchivoProfes(FicheroEstudiantes, 100);
+        EaA.CrearArchivoProfes(FicheroProfesores, 100);
         EaA.RecorrerProfesores();
 //       EaA.RecuperarProfesor(68);
         EaA.ActualizarArchivoProfesores(68, 68, "Carlos", "Correa", 800012, true);
